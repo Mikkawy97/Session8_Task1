@@ -1,0 +1,267 @@
+$base-color: #0A2640;
+$text-color: #F1F1F1;
+*{
+    font-family: 'Open Sans'; 
+    
+
+}
+@font-face {
+    font-family: "cairo";
+    src: url(./fonts/Cairo-VariableFont_slnt\,wght.ttf);
+  
+  }
+  @font-face {
+    font-family: "mixarabic";
+    src: url(./fonts/TheMixArab\ Regular.ttf);
+  }
+  .cairofont{
+    font-family: "cairo";
+    font-weight: normal;
+
+  }
+  .f16{
+    font-size: 16px;
+  }
+.header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+    background: #FFFFFF;
+    .signin_btn{
+        display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       height: 45px;
+       border: 1px solid rgba(18, 17, 39, 0.12);
+border-radius: 24px;
+     width: 100%;
+    
+       font-size: 16px;
+       height: 45px;
+       color: #121127;
+       }
+        .signup_btn{
+            width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       
+         color: white;   
+     
+        height: 45px;
+        font-size: 16px;
+
+        background: #510B76;
+        box-shadow: 0px 4px 20px #FFB802;
+        border-radius: 24px;
+        }
+        .cicrle_green{
+        
+            height: 40px;
+            border-radius: 50%;
+            background-color: #0B760F;
+
+        }
+        .cicrle_purple{
+          
+            height: 40px;
+            border-radius: 50%;
+            background-color: #510B76;
+
+        }
+        .search_sect{
+        i{
+            font-size: 16px;
+        }}
+        .nav_items{
+            i{
+                margin-right: 20px;
+                font-size: 16px;
+            }
+            .item{
+                font-family: 'mixarabic';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 180%;
+                    /* or 32px */
+
+
+                    /* Grayscale/900 */
+
+                    color: #16151A;
+            }
+        }
+}
+.second_sect{
+    img{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+    .content-wrapper{
+        background-color: #510B76;
+        width: 100%;
+        height: 100%;
+        .tag{
+            font-family: 'cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;
+            /* identical to box height, or 200% */
+
+           margin-left: 20px;
+           margin-right: 20px;
+            /* White/500 */
+
+            color: #FFFFFF;
+        }
+        .hl{
+            background-color:white;
+            width: 2px;
+            height: 20px;
+        }
+        i{
+            margin-right: 20px;
+            margin-left: 20px;
+            color:white;
+            font-size: 16px;
+        }
+        .title{
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 120%;
+            /* or 67px */
+            text-align: right;
+            letter-spacing: -2px;
+            font-feature-settings: 'pnum' on, 'lnum' on;
+
+            /* White/500 */
+
+            color: #FFFFFF;
+        }
+        .subtitle{
+            font-family: 'cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 180%;
+            /* or 36px */
+
+            text-align: right;
+
+            /* White/500 */
+
+            color: #FFFFFF;
+        }
+   
+    }
+    
+}
+.text-right{
+    text-align: right;
+}
+.third_sect{
+    padding-top: 150px;
+    padding-bottom: 52px;
+    .image-wrapper{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .img1{
+            position: absolute;
+            bottom: -20px;
+            left: 0px;
+            max-width: 60%;
+            max-height: 100%;
+        }
+        .img2{
+            position: absolute;
+            bottom: 20%;
+            left: 20%;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+.gentitle{
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    /* or 67px */
+    
+    letter-spacing: -2px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* White/500 */
+
+}
+.gensubtitle{
+    font-family: 'cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 36px */
+
+    
+
+    /* White/500 */
+
+}
+.color-black{
+    color: black;
+}
+.color-darkgray{
+    color: #41404D;
+}
+.color-white{
+    color: white;
+}
+.card1{
+    border-style: none;
+    height: 100%;
+    .card-title{
+        font-family: 'cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        /* identical to box height, or 34px */
+
+        
+        letter-spacing: -2px;
+
+        /* White/500 */
+
+        color: #FFFFFF;
+    }
+    .card-subtitle{
+        
+        font-family: 'cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+        border-style: none;
+        text-align: center;
+        letter-spacing: -1px;
+
+        color: #000000;
+    }
+}
+.bg-purple{
+    background-color: #510B76;
+}
+.bg-gray{
+    background-color: #FAFAFA;
+}
+
